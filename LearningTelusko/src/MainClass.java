@@ -9,7 +9,7 @@ public class MainClass {
 		
 		h.put(1, "Ja");
 		h.put(5, "Tom");
-		h.put(4, "Ktoœ");
+		h.put(4, "Mam");
 		
 		System.out.println(h.get(4));
 
