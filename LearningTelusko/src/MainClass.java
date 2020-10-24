@@ -1,18 +1,19 @@
-import java.util.TreeMap;
+import java.util.ArrayList;
 
 public class MainClass {
 	
 	public static void main(String args[]){
 	
-		TreeMap<Integer, String> h = new TreeMap<>();
-		
-		
-		h.put(1, "Ja");
-		h.put(5, "Tom");
-		h.put(4, "Mam");
-		
-		System.out.println(h.get(4));
+	ArrayList<String> a = new ArrayList<>();
 
+	
+	a.add("Tomek");
+	a.add("Krystian");
+	
+	for(String x : a) {
+		System.out.println(x);
+	}
 	}
 }
+
 
